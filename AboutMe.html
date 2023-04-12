@@ -1,0 +1,146 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>About Me</title>
+<link href="assets/laptop.css" rel="stylesheet" type="text/css">
+<style>
+div.formrow {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 7px 0px;
+}
+div.formRow > * {
+  flex: 1 1 150px;
+}
+legend {
+  background-color: #574FE8
+}
+textarea {
+  margin-top: 12px;
+  height: 120px;
+  width: 80%;
+}
+	div#buttons {
+		text-align:center;
+	}
+body {
+    background-color: #574FE8
+}
+</style>
+<link href="assets/Title.css" rel="stylesheet" type="text/css">
+<link href="assets/CSS2.css" rel="stylesheet" type="text/css">
+<link href="assets/center2.css" rel="stylesheet" type="text/css">
+<link href="assets/center3.css" rel="stylesheet" type="text/css">
+<link href="assets/Navigation.css" rel="stylesheet" type="text/css">
+<link href="survey.css" rel="stylesheet" type="text/css">
+<!-- Nathanial Domenico, CTI110-0001 -->
+</head>
+
+<body>
+<h1><strong> About Me</strong></h1> 
+<p id="Bio">Nathanial Domenico</p> <img src="assets/pexels-daniel-jurin-1835718.jpg" width="106" height="107" alt="beautiful beach"><img src="assets/pexels-petra-nesti-13386675.jpg" width="106" height="107" alt="vast green mountains">
+<nav class="fluid menu_bar">
+<p> <a href="index.html">Home</a> - <a href="AboutMe">About Me</a> - <a href="WEB.html">WEB</a> - <a href="MarkupLanguage.html">Markup Language</a> - <a href="ToolsandProcesses.html">Tools and Processes</a> - <a href="Databases.html">Databases</a></p>
+</nav>
+<h4><strong>I am a student at Wake Tech.
+  I have two younger brothers and one younger sister.
+  I currently live in Raleigh, North Carolina.
+  Two of my favorite places are the beach, and the mountains, because that is where I visit my family. This website holds the work I have done in my Web, Program, and Database Foundation Class.
+If you want to contact me, Email me at ngdomenico@my.waketech.edu.</strong></h4>
+<h4>Sanderson High School, Raleigh, North Carolina; Class of 2022; GPA- 4.3</h4>
+<h3 id="computercourses">Computer Courses Passed</h3>
+<h4>Passed all courses with a 91% A or higher.</h4>
+<ol>
+  <li>Adobe Visual Design</li>
+  <li>Adobe Digital Design and Animation I</li>
+	<li>Python Programming I</li>
+  <li>Python Programming II</li>
+  <li>Microsoft Word and Powerpoint</li>
+  <li>Microsoft Excel Honors</li>
+  <li>Technological Design Honors</li>
+</ol>
+<h3>AP Courses Passed</h3>
+<h4>Passed all courses with an 85% B or higher.</h4>
+<ol>
+  <li>AP English Language and Composition</li>
+  <li>AP United States History</li>
+  <li>AP Environmental Science</li>
+	</ol>
+<h3>Survey</h3>
+<form id="visitorsurvey" 
+  action="https://hermes.waketech.edu/~ngdomenico/AboutMe" method="post">
+  <fieldset id="Info"> 
+<div class="formRow">
+<label for="name">Visitor Name*</label>
+<input name="Vistor Name" id="name" type="text" placeholder="first and last name">
+</div>
+<div class="formRow">
+<label for="PhoneNumber">Phone Number*</label>
+<input name="Phone Number" id="PhoneNumber" type="text" placeholder="(nnn) nnn-nnnn">
+</div>
+<div class="formRow">
+<label for="bdate">Date of Birth</label>
+<input name="bdate" id="bdate" type="date">
+</div>
+<div class="formRow">
+<label for="Rating">Portfolio Rating*</label>
+<select name="websiteRating" id="Rating">
+<option value="Rating1">Great</option>
+<option value="Rating2">Good</option>
+<option value="Rating3">OK</option>
+<option value="Rating4">Bad</option>
+<option value="Rating5">Very Bad</option>
+</select>
+</div>
+<div class="formRow">
+<label>Would you visit again?*</label>
+<fieldset class="optGroup">
+<label for="hYes">Yes</label>
+<input name="visitAgain" id="hYes" value="yes" type="radio">
+<label for="hNo">No</label>
+<input name="visitAgain" id="hNo" value="no" type="radio">
+	</fieldset>
+	  </div>
+<div class="formRow">
+	<label for="rangeRating">Rate the work I have shown on my Portfolio
+	<br>0 = No Good  10 = Extremely Good </label>
+	<br>
+	0
+	<input name="workQuality" id="rangeRating"
+		   type="range" value="5" step=".5" min="0" max="10">
+	10</div>
+<div class="formRow">
+<label for="commBox">Leave any comments about my Portfolio here.</label>
+<textarea name="visitorExp" id="commBox"></textarea>
+</div>
+  </fieldset>
+ <div id="buttons">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</div>
+</form>
+ <h3>Sources That Help With Web Design </h3>
+<table>
+    <tbody>
+      <tr>
+        <td><a href="https://www.wix.com/blog/2017/10/5-design-tips-for-a-professional-site/">wix.com</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.itpro.com/development/web-development/368220/10-tips-for-building-your-first-website">itpro.com</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://torquemag.io/2023/01/web-design-trends-2023/">torquemag.io</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.businessnewsdaily.com/9811-effective-business-website-tips.html">businessnewsdaily.com</a></td>
+      </tr>
+    </tbody>
+  </table>
+<p class="Domenico"><a href="#Bio">Back To Bio</a></p>
+<p class="Domenico"><a href="#computercourses">Back to Computer Courses</a></p>
+<p><a href="index.html">Back to Home Page</a></p>
+</body>
+<!-- This file is my own work and I typed everything manually, Domenico-->
+</html>

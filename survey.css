@@ -1,0 +1,8 @@
+@charset "utf-8";
+#Info .formRow {
+    font-size: large;
+    text-align: left;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    border-top-left-radius: 0px;
+    font-weight: normal;
+}
